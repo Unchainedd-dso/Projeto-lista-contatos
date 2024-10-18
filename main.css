@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E7E7E7;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin:80px auto;
+}
+
+h1{
+    padding-bottom: 40px;
+}
+
+form{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+input,button{
+    margin-right: 16px;
+    padding:8px;
+    font-size: 16px;
+}
+
+#nome-contato{
+    width: 40%;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed; /*Impede que a tabela mude de tamanho a cada nova entrada*/
+    border-collapse: collapse;
+}
+
+thead{
+    text-align: left;
+    
+}
+
+table th{
+    font-size: 26px;
+    font-weight: bold;
+    padding: 8px 0;
+    border-bottom: 2px solid black;
+}
+
+table td{
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: left;
+}
+
